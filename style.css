@@ -1,8 +1,9 @@
 body {
     font-family: Helvetica;
     text-align: left;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
 }
 
 header {
@@ -21,6 +22,8 @@ header {
 h1 {
     font-size: 3em;
     color: white;
+    padding-top: 30px;
+    margin-top: 0px;
 }
 
 nav {
@@ -33,6 +36,8 @@ nav ul {
     /* display: flex; */
     /* text-align: center; */
     list-style-type: none;
+    margin-right: 20px;
+    text-align: right;
 }
 
 nav li {
@@ -44,14 +49,19 @@ nav li {
 
 nav a {
     color: white;
+    font-weight: bold;
 }
 
 .about {
     display: flex;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .about-text {
     max-width: 800px;
+    min-width: 400px;
 }
 
 .about-text h2 {
@@ -59,5 +69,38 @@ nav a {
 }
 
 .about-text p {
+    font-size: 1.5em;
+}
+
+.about-image img{
+   max-width: 100%;
+   min-width: 400px;
+   min-height: 200px;
+}
+
+.projects {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.projects-image img {
+    max-width: 600px;
+    min-width: 200px;
+}
+
+.projects-text {
+    margin-left: 50px;
+    margin-top: 0px;
+    padding-top: 0px;
+    max-width: 800px;
+    min-width: 400px;
+}
+
+.projects h2 {
+    font-size: 2.5em;
+}
+
+.projects-text h3 {
     font-size: 1.5em;
 }
