@@ -1,0 +1,51 @@
+body {
+    font-family: Helvetica;
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+header {
+    display: box;
+    text-align: center;
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fstock.adobe.com%2Fsearch%3Fk%3Dsingapore&psig=AOvVaw17Irt8qEqq1BDgCDj2qem8&ust=1755849273302000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPCfvrW2m48DFQAAAAAdAAAAABAE");
+}
+
+h1 {
+    font-size: 3em;
+}
+
+nav {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+nav ul {
+    /* display: flex; */
+    /* text-align: center; */
+    list-style-type: none;
+}
+
+nav li {
+    /* display: inline; */
+    text-decoration: underline;
+    font-size: 1.7rem;
+    margin-left: 30px;
+}
+
+.about {
+    display: flex;
+}
+
+.about-text {
+    max-width: 800px;
+}
+
+.about-text h2 {
+    font-size: 2.5em;
+}
+
+.about-text p {
+    font-size: 1.5em;
+}
