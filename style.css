@@ -8,11 +8,19 @@ body {
 header {
     display: box;
     text-align: center;
-    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fstock.adobe.com%2Fsearch%3Fk%3Dsingapore&psig=AOvVaw17Irt8qEqq1BDgCDj2qem8&ust=1755849273302000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPCfvrW2m48DFQAAAAAdAAAAABAE");
+    background-image: url("https://plus.unsplash.com/premium_photo-1697729420937-0ecb0ddb6e85?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2luZ2Fwb3JlJTIwbGFuZHNjYXBlfGVufDB8fDB8fHww");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+
 }
 
 h1 {
     font-size: 3em;
+    color: white;
 }
 
 nav {
@@ -32,6 +40,10 @@ nav li {
     text-decoration: underline;
     font-size: 1.7rem;
     margin-left: 30px;
+}
+
+nav a {
+    color: white;
 }
 
 .about {
