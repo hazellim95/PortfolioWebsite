@@ -148,3 +148,15 @@ nav a {
 .list-of-skills {
     display: flex;
 }
+
+
+.contact {
+    display: flex;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.contact-text h2 {
+    font-size: 2.5em;
+}
