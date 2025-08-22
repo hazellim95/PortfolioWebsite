@@ -1,3 +1,4 @@
+// Add event listeners to toggle project descriptions
 const project1 = document.getElementById('project-1');
 const project2 = document.getElementById('project-2');
 const project3 = document.getElementById('project-3');
@@ -28,6 +29,12 @@ project3.addEventListener('click', function() {
     } else {
         projectDescr3.style.display = 'none'
     };
+});
+
+// Toggle Dark Mode
+const toggleButton = document.getElementById('toggle-dark-mode');
+toggleButton.addEventListener('click', function() {
+    document.body.classList.toggle('dark-mode');
 });
 
 

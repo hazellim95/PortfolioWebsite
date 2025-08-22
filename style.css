@@ -110,6 +110,18 @@ nav a {
     font-size: 1.5em;
 }
 
+#project-1:hover {
+    cursor: pointer;
+}
+
+#project-2:hover {
+    cursor: pointer;
+}
+
+#project-3:hover {
+    cursor: pointer;
+}
+
 #project-descrp-1 {
     display: none;
 }
@@ -120,4 +132,19 @@ nav a {
 
 #project-descrp-3 {
     display: none;
+}
+
+.dark-mode {
+    background-color: #222;
+    color: #eee;
+}
+
+.expertise {
+    margin-bottom: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.list-of-skills {
+    display: flex;
 }
