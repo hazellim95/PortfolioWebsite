@@ -109,3 +109,15 @@ nav a {
 .projects-text h3 {
     font-size: 1.5em;
 }
+
+#project-descrp-1 {
+    display: none;
+}
+
+#project-descrp-2 {
+    display: none;
+}
+
+#project-descrp-3 {
+    display: none;
+}
