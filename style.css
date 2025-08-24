@@ -14,8 +14,8 @@ header {
     width: 100%;
     background-position: center center;
     background-size: cover;
-    padding-bottom: 50px;
-    margin-bottom: 20px;
+    padding-bottom: 150px;
+    margin-bottom: 0;
 
 }
 
@@ -30,8 +30,10 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 0px;
+    padding-bottom: 0;
+    background-color: rgb(80, 97, 162);
+    height: 50px;
     /* flex-direction: column; */
 }
 
@@ -39,7 +41,6 @@ nav ul {
     /* display: flex; */
     /* text-align: center; */
     list-style-type: none;
-    margin-right: 20px;
     text-align: left;
 }
 
