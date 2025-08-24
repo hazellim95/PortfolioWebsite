@@ -28,8 +28,11 @@ h1 {
 
 nav {
     display: flex;
-    align-items: flex-end;
-    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* flex-direction: column; */
 }
 
 nav ul {
@@ -37,20 +40,28 @@ nav ul {
     /* text-align: center; */
     list-style-type: none;
     margin-right: 20px;
-    text-align: right;
+    text-align: left;
 }
 
 nav li {
-    /* display: inline; */
-    text-decoration: underline;
+    display: inline;
     font-size: 1.7rem;
     margin-left: 30px;
 }
 
+
 nav a {
     color: white;
     font-weight: bold;
+    text-decoration: none;
 }
+
+nav a:hover {
+    cursor: pointer;
+    color: black;
+    background-color: white;
+}
+
 
 .about {
     display: flex;
